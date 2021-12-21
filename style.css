@@ -73,3 +73,24 @@ footer{
     text-align: center;
     padding: 5px;
 }
+div.prox_pagina{
+    text-align: center;
+    margin: 15px;
+   
+
+}
+.proximo{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 5px;
+    color: black;
+    background-color:white;
+    border-radius:50px;
+    border: 2px solid black;
+}
+.proximo:hover{
+    color: white;
+    background-color:gray;
+    border: 2px solid black;
+
+}

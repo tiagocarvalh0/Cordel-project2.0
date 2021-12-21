@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+div.ant_pagina{
+    text-align: center;
+    margin: 15px;
+   
+
+}
+.anterior{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 5px;
+    color: black;
+    background-color:white;
+    border-radius:50px;
+    border: 2px solid black;
+}
+.anterior:hover{
+    color: white;
+    background-color:gray;
+    border: 2px solid black;
+
+}
