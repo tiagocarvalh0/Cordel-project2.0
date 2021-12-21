@@ -1,4 +1,68 @@
 @charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(145, 145, 145);
+
+}
+header{
+    padding: 15px;
+    background-color: black;
+    text-align: center;
+}
+header h1{
+    color: white;
+}
+header p {
+    color: white;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    padding: 2px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+p{
+    padding: 30px;
+}
+.normal{
+    color: white;
+    background-color: rgb(145, 145, 145);
+    font-size: 1.5em;
+    text-shadow: 1px 1px 0px black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.imagem{
+    font-size: 2em;
+    background-color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-attachment: fixed;
+    
+}
+section.imagem>p{
+
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    width: 500px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.534);
+   
+}
+.imagem{
+    
+    background-image: url(imagens/page002/background001.jpg);
+    background-position: center ;
+
+}
 
 div.ant_pagina{
     text-align: center;
@@ -19,5 +83,12 @@ div.ant_pagina{
     color: white;
     background-color:gray;
     border: 2px solid black;
+
+}
+footer,footer>p{
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: black;
 
 }
