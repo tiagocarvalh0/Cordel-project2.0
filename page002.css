@@ -33,10 +33,10 @@ p{
     padding: 30px;
 }
 .normal{
-    color: white;
-    background-color: rgb(145, 145, 145);
+    color: black;
+    background-color: rgb(255, 255, 255);
     font-size: 1.5em;
-    text-shadow: 1px 1px 0px black;
+    text-shadow: 1px 1px 0px rgb(85, 85, 85);
     padding-top: 100px;
     padding-bottom: 100px;
 }
